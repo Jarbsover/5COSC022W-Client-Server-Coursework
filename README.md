@@ -1,3 +1,7 @@
+w2115801
+Jia Bei Lu
+Client-Server Coursework Report
+
 - Question: In your report, explain the default lifecycle of a JAX-RS Resource class. Is a new instance instantiated for every incoming request, or does the runtime treat it as asingleton? Elaborate on how this architectural decision impacts the way you manage and synchronize your in-memory data structures (maps/lists) to prevent data loss or race conditions.
 
 A JAX-RS resource class is a per-request life cycle, so for every HTTP request is made, a new instance of the JAX-RS resource class is also made at the same time.
